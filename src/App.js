@@ -1,8 +1,9 @@
 import React from "react";
 import backgroundImage from "./assets/skydiving.jpg";
 import { Box, Container, Stack, Typography, styled } from "@mui/material";
-const logo =
-	"https://res.cloudinary.com/dqweh6zte/image/upload/v1679650180/skydive%20rhino/images/skydive_rhino_kenya_logo_trnkqy.png";
+
+const logo = "https://res.cloudinary.com/dqweh6zte/image/upload/v1679650180/skydive%20rhino/images/skydive_rhino_kenya_logo_trnkqy.png";
+const width = window.innerWidth
 
 const StyledWrapper = styled(Box)(({ theme }) => ({
 	position: "fixed",
@@ -18,7 +19,7 @@ const StyledWrapper = styled(Box)(({ theme }) => ({
 }));
 
 const BoxWrapper = styled(Container)(({ theme }) => ({
-	minWidth: "500px",
+	minWidth: "400px",
 	backgroundColor: "rgba(1,1,1, 0.6)",
 	display: "flex",
 	justifyContent: "center",
